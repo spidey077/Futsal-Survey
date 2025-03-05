@@ -47,7 +47,8 @@ p {
 .form-container {
     background-color: rgba(9, 87, 50, 0.7);
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
+    min-height: 340px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,6 +57,35 @@ p {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 
     margin: 20px;
+}
+@media (min-width: 350px) {
+    .form-container {
+        padding: 15px; 
+        max-width: 350px; 
+    }
+
+    h1 {
+        font-size: 2.2rem; 
+    }
+
+    p {
+        font-size: 0.9rem; 
+    }
+
+    label {
+        font-size: 1rem; 
+    }
+
+    input,
+    select,
+    textarea {
+        font-size: 0.9rem; 
+    }
+
+    input[type="submit"] {
+        font-size: 0.8rem; 
+        padding: 12px 35px; 
+    }
 }
 
 @media (min-width: 768px) {
