@@ -65,7 +65,9 @@ p {
 }
 
 @media (max-width: 760px) {
-
+    body {
+        background-attachment: scroll;
+    }
     h1 {
         font-size: 30px;
     }
