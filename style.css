@@ -79,21 +79,21 @@ p {
 
     .form-container {
         padding: 20px;
-        width: 90%;
+        width:75%;
     }
 
     .label {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     input,
     select,
     textarea {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     input[type="submit"] {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .footer {
