@@ -18,44 +18,46 @@
 <body>
     <h1 id="title">FUTSAL SURVEY</h1>
     <p id="description">HELP US ENHANCE YOUR FUTSAL EXPERIENCE</p>
-    <form action="https://formsubmit.co/imdadullahchishti@gmail.com" method="POST" class="form-container" id="survey-form" >
-        <div>
-            <label id="name-label">FULL NAME</label>
-            <input id="name" type="text" name="name" placeholder="Enter your name" required>
-        </div>
-
-        <div>
-            <label id="email-label">EMAIL ADDRESS</label>
-            <input id="email" type="email" name="email" placeholder="Enter your email" required>
-        </div>
-
-        <div>
-            <label id="number-label">CONTACT NUMBER</label>
-            <input id="number" type="number" name="number" placeholder="Enter your contact number" required>
-        </div>
-
-        <div>
-            <label>WHAT DO YOU APPRECIATE MOST ABOUT OUR FUTSAL GROUND?</label>
-            <select id="dropdown" name="preference">
-                <option disabled selected value="SELECT">Select an option</option>
-                <option value="FACILITIES">Facilities</option>
-                <option value="PITCH QUALITY">Pitch Quality</option>
-                <option value="STAFF BEHAVIOR">Staff Behavior</option>
-            </select>
-        </div>
-
-        <div>
-            <label>ADDITIONAL FEEDBACK</label>
-            <textarea id="comments" name="comments" placeholder="Share your thoughts..." required></textarea>
-        </div>
-
-        <div>
-            <input id="submit" type="submit" value="Submit">
-        </div>
-    </form>
+    <div class="form-container" id="survey-form">
+        <form action="https://formsubmit.co/imdadullahchishti@gmail.com" method="POST"  >
+            <div>
+                <label id="name-label">FULL NAME</label>
+                <input id="name" type="text" name="name" placeholder="Enter your name" required>
+            </div>
     
+            <div>
+                <label id="email-label">EMAIL ADDRESS</label>
+                <input id="email" type="email" name="email" placeholder="Enter your email" required>
+            </div>
+    
+            <div>
+                <label id="number-label">CONTACT NUMBER</label>
+                <input id="number" type="number" name="number" placeholder="Enter your contact number" required>
+            </div>
+    
+            <div>
+                <label>WHAT DO YOU APPRECIATE MOST ABOUT OUR FUTSAL GROUND?</label>
+                <select id="dropdown" name="preference">
+                    <option disabled selected value="SELECT">Select an option</option>
+                    <option value="FACILITIES">Facilities</option>
+                    <option value="PITCH QUALITY">Pitch Quality</option>
+                    <option value="STAFF BEHAVIOR">Staff Behavior</option>
+                </select>
+            </div>
+    
+            <div>
+                <label>ADDITIONAL FEEDBACK</label>
+                <textarea id="comments" name="comments" placeholder="Share your thoughts..." required></textarea>
+            </div>
+    
+            <div>
+                <input id="submit" type="submit" value="Submit">
+            </div>
+        </form>
+        
+    </div>
+   
     <footer class="footer"> © Created for freeCodeCamp</footer>
-    
 </body>
 
 </html>
