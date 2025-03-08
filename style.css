@@ -19,6 +19,8 @@ body {
     min-height: 100vh;
     padding: 20px;
     box-sizing: border-box;
+    animation: fadeIn 1s ease-in-out;
+
 }
 
 h1,
@@ -194,3 +196,12 @@ input[type="submit"]:hover {
     text-align: center;
     letter-spacing: 1px;
 }
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+} 
