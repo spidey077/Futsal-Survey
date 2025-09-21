@@ -32,6 +32,13 @@ p,
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     display: inline-block;
 }
+.credit {
+    font-size: 0.75rem;
+    opacity: 0.8;
+    display: block;
+    margin-top: 5px;
+    color: #fff;
+}
 
 
 h1 {
@@ -205,3 +212,4 @@ input[type="submit"]:hover {
         opacity: 1;
     }
 } 
+
